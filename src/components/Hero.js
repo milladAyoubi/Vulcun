@@ -19,10 +19,11 @@ const Hero = () => {
         <source src={require('../assets/img/hero-video.mp4')} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="content relative bottom-24 text-white text-center flex flex-col items-center gap-6">
-       
-        <img src={heroText} alt="" className='w-[46rem]' />
-        <div className='flex flex-col  lg:flex-row gap-8'>
+      <div className="content relative bottom-24 text-white text-center flex flex-col items-center gap-4">
+
+<h1 className='text-[32px] lg:text-[58px] font-light leading-tight mb-6 w-[1200px]'>`THIS SUMMER STRIVE FOR FITNESS EXCELLENCE</h1>        
+
+<div className='flex flex-col  lg:flex-row gap-8'>
         <button className='bg-white transition hover:bg-transparent hover:text-white border-2 border-white text-black/80 h-[58px] text-base px-14 font-semibold  '>Book Classes</button>
         <button className=' h-[52px] text-base px- font-semibold flex gap-3 relative top-4 '>
           <span className='bg-white/20 transition hover:bg-white/30 items-center flex justify-center p-4 rounded-full relative bottom-4'>
