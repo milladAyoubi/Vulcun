@@ -25,6 +25,7 @@
   .section-subtitle {
     @apply mt-6 mb-8 text-gray;
   }
+
   .input,
   .select {
     @apply outline-none w-full border-b border-gray text-darkblue h-[38px] text-xl;
@@ -97,6 +98,17 @@
     @apply bg-gradient-to-r to-primary via-orange from-primary    text-white transition-all duration-500;
   }
 
+  .play-button {
+    background-color: var(--coquelicot);
+    color: var(--white);
+    width: max-content;
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 50%;
+    margin-block: 25px 35px;
+    animation: pulse 2s ease infinite;
+  }
+
   @keyframes rotate360 {
     from {
       transform: rotate(0);
@@ -116,6 +128,16 @@
 
     100% {
       transform: translate(5px, 20px);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 #a87309;
+    }
+
+    100% {
+      box-shadow: 0px 0px 3px 30px transparent;
     }
   }
 }

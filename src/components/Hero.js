@@ -19,16 +19,16 @@ const Hero = () => {
         <source src={require('../assets/img/hero-video.mp4')} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="content relative bottom-24 text-white text-center flex flex-col items-center gap-4">
-<h1 className='text-[24px]'>This Summer</h1>
-<h1 className='text-[32px] lg:text-[58px] font-semibold leading-tight mb-6 w-[1200px]'>STRIVE FOR FITNESS EXCELLENCE</h1>        
+      <div className="content relative bottom-24 text-white text-center flex flex-col items-center gap-0">
+<h1 className='text-[22px] font-semibold sub-title'>This Summer</h1>
+<h1 className='text-[32px] lg:text-[72px] font-semibold leading-tight mb-6 w-[1200px]'>STRIVE FOR FITNESS EXCELLENCE</h1>        
 
-<div className='flex flex-col  lg:flex-row gap-8 '>
-        <button className=' h-[52px] text-base px- font-semibold flex gap-3 '>
-          <span className='bg-white/20 transition hover:bg-white/30 items-center flex justify-center p-4 rounded-full relative bottom-4'>
-          <FaPlay className="text-xl lg:text-2xl  m-auto"/>
+<div className='flex flex-col  lg:flex-row gap-2 '>
+        <button className=' h-[52px] text-[12px] font-semibold flex flex-col  items-center cursor-pointer '>
+          <span className='bg-yellow-600/80 transition hover:bg-white  items-center flex justify-center p-5 rounded-full relative bottom-4 play-button'>
+          <FaPlay className="text-xl lg:text-xl text-white opacity-90  m-auto "/>
           </span>
-          View Free Trial</button>
+          <span className='cursor-pointer relative bottom-5'>VIEW FREE TRIAL</span></button>
         </div>
       </div>
     </div>

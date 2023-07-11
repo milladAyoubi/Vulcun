@@ -8,7 +8,7 @@ module.exports = {
             },
         },
         fontFamily: {
-            primary: 'Poppins',
+            primary: 'Rubik',
         },
         extend: {
             colors: {
