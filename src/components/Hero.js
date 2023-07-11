@@ -2,8 +2,9 @@ import React from 'react';
 import Header from './Header';
 import heroText from '../assets/img/hero-text.svg'
 import {FaPlay} from 'react-icons/fa';
-
-
+import {AiFillInstagram} from 'react-icons/ai'
+import {FaTiktok} from 'react-icons/fa'
+import {BsFacebook} from 'react-icons/bs'
 import  { useState } from 'react';
 
 
@@ -32,7 +33,11 @@ const Hero = () => {
         </div>
       </div>
     </div>
-
+    <div className='flex flex-col bg-white h-[auto] w-[50px] rounded-full fixed top-[35%] right-8 shadow-lg items-center gap-4 py-4 z-10'>
+<a href="#"><AiFillInstagram className="text-2xl lg:text-3xl text-black/90 hover:text-black/80 transition"/></a>
+<a href="#"><FaTiktok className="text-2xl lg:text-2xl text-black/90 hover:text-black/80 transition"/></a>
+<a href="#"><BsFacebook className="text-2xl lg:text-2xl text-black/90 hover:text-black/80 transition"/></a>
+  </div>
   </section>) ;
 };
 
