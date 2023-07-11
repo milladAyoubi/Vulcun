@@ -25,6 +25,13 @@ module.exports = {
                 },
                 violet: '#2B076E',
                 white: '#ffffff',
+
+                primary: '#FFA100',
+                secondary: '#FB7022',
+                tertiary: '#FB7022',
+                black: '#231714',
+                orange: '#F5846A',
+                forange: '#FBA122'
             },
             boxShadow: {
                 primary: '0px 20px 200px rgba(57, 23, 119, 0.05)',

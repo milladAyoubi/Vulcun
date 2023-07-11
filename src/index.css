@@ -14,7 +14,7 @@
   }
 
   .btn {
-    @apply bg-transparent h-[60px] px-4 border-2 border-yellow-600   hover:bg-yellow-600 transition flex items-center text-lg font-medium outline-none;
+    @apply bg-transparent h-[60px] px-4 border-2 border-yellow-600/50   hover:bg-yellow-600 transition flex items-center text-lg font-medium outline-none;
   }
   .section {
     @apply py-12 lg:py-24;
@@ -77,5 +77,28 @@
   .buissness-icon-container {
     border-radius: 20px;
     transition: 0.3s;
+  }
+
+  .circle {
+    animation: rotate360 15s linear infinite;
+  }
+
+  .circle-2 {
+    position: relative;
+    bottom: 470px;
+    animation-direction: reverse;
+  }
+
+  .gradient {
+    @apply bg-gradient-to-r to-primary via-orange from-primary    text-white transition-all duration-500;
+  }
+
+  @keyframes rotate360 {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(3turn);
+    }
   }
 }

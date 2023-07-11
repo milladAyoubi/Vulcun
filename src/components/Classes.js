@@ -2,10 +2,10 @@ import React from 'react'
 
 const Classes = () => {
   return (
-   <section className="bg-pattern h-[700px] p-12">
+   <section className=" h-[700px] ">
    
 
-        <div className='flex items-center flex-col lg:flex-row justify-between w-[100%]  gap-10 h-[100%]'>
+        <div className='flex items-center flex-col lg:flex-row justify-between w-[100%]  gap-0 h-[100%]'>
 
             <div className="flex transition-all w-[33.33%] h-[100%] items-center justify-center relative text-center bg-ride bg-center">
                 <div className=" text-center flex flex-col gap-4 text-white brightness-100 hover:bg-black/30 transition h-[100%] ">
@@ -20,7 +20,7 @@ const Classes = () => {
                 </div>
             </div>
              
-            <div className="flex  border-2 w-[33.33%] h-[100%] items-center justify-center relative text-center bg-yoga bg-center">
+            <div className="flex w-[33.33%] h-[100%] items-center justify-center relative text-center bg-yoga bg-center">
             <div className=" text-center flex flex-col gap-4 text-white brightness-100 hover:bg-black/30 transition h-[100%] ">
                <div className=" text-center flex flex-col gap-4 text-white m-auto">
                 <h2 className="lg:text-[28px] font-bold ">Strength Training</h2>
