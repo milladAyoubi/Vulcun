@@ -89,6 +89,10 @@
     animation-direction: reverse;
   }
 
+  .about-img {
+    animation: move 3s linear infinite alternate;
+  }
+
   .gradient {
     @apply bg-gradient-to-r to-primary via-orange from-primary    text-white transition-all duration-500;
   }
@@ -99,6 +103,19 @@
     }
     to {
       transform: rotate(3turn);
+    }
+  }
+
+  @keyframes move {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-5px, 10px);
+    }
+
+    100% {
+      transform: translate(5px, 20px);
     }
   }
 }

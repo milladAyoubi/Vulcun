@@ -13,7 +13,7 @@ const About =() => {
        <img src={Circle1} width="580" height="134" loading="lazy" aria-hidden="true" alt="" class="circle circle-1"/>
        <img src={Circle2} width="580" height="134" loading="lazy" aria-hidden="true" alt="" class="circle circle-2"/>
     </div>
-       <img src={aboutImage} width="260" height="134" loading="lazy" aria-hidden="true" alt="" className='relative bottom-64 w-[600px]'/>
+       <img src={aboutImage} width="260" height="134" loading="lazy" aria-hidden="true" alt="" className='about-img relative bottom-[380px] right-[50px] w-[600px]'/>
        </div>
        </div>
 
