@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-    <div className='flex flex-col bg-white h-[auto] w-[50px] rounded-full fixed top-[35%] right-8 shadow-lg items-center gap-4 py-4 z-10'>
+    <div className='flex flex-col bg-white h-[auto] w-[50px] rounded-full fixed top-[35%] right-8 shadow-lg items-center gap-4 py-4'>
 <a href="#"><AiFillInstagram className="text-2xl lg:text-3xl text-black/90 hover:text-black/80 transition"/></a>
 <a href="#"><FaTiktok className="text-2xl lg:text-2xl text-black/90 hover:text-black/80 transition"/></a>
 <a href="#"><BsFacebook className="text-2xl lg:text-2xl text-black/90 hover:text-black/80 transition"/></a>
