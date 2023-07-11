@@ -9,6 +9,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer'
 import NavMobile from './components/NavMobile';
+import Classes from './components/Classes'
 
 
 
@@ -30,6 +31,7 @@ const App = () => {
         className = "lg:fixed"/>
 
         <Hero/>
+        <Classes/>
 
         <div className = { `${navMobile ? 'right-0' : '-right-full'} fixed z-10 top-0 h-full transition-all duration-200` }>
         <NavMobile setNavMobile = { setNavMobile }/> 

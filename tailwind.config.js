@@ -31,6 +31,10 @@ module.exports = {
             },
             backgroundImage: {
                 newsletter: "url('/src/assets/img/newsletter-bg.png')",
+                pattern: "url('/src/assets/img/bg-pattern.jpg')",
+                yoga: "url('/src/assets/img/bg-yoga-class.jpg')",
+                fitness: "url('/src/assets/img/bg-fitness-class.jpg')",
+                ride: "url('/src/assets/img/bg-ride-class.jpg')",
                 newsletterBox: "url('/src/assets/img/newsletter-box.png')",
             },
         },
