@@ -8,7 +8,7 @@ const AccountBtns = () => {
         <a className='hover:text-stone-200 transition ' href = '#' > My Account </a>
         <span className='mx-6 text-white/20 font-thin'>|</span>
 
-        <button className=' btn h-[52px] text-yellow-600 hover:text-white text-base px-8 font-semibold'>Book Classes</button>
+        <button className=' btn h-[52px]  hover:text-white text-base px-8 font-semibold'>Book Classes</button>
 
         </div>
     );
