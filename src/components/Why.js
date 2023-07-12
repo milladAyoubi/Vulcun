@@ -3,6 +3,7 @@ import Circle1 from '../assets/img/about-circle-one.png'
 import Circle2 from '../assets/img/about-circle-two.png'
 import whyImage from '../assets/img/why-image.jpg'
 import victorImg from '../assets/img/victor.png'
+import fitnessCircle from '../assets/img/fitness-circle.svg'
 
 const Why = () => {
   return (
@@ -38,8 +39,9 @@ const Why = () => {
 <div className=' '>
 
 <div className=' '>
+<img src={fitnessCircle} width="340" height="134" loading="lazy" aria-hidden="true" alt="" className='circle circle-1 relative top-[170px] left-[90px]'/>
 
-<img src={whyImage} width="540" height="134" loading="lazy" aria-hidden="true" alt="" className='relative top-8 overflow-none'/>
+<img src={whyImage} width="540" height="134" loading="lazy" aria-hidden="true" alt="" className='relative bottom-[140px] overflow-none'/>
 </div>
 </div>
     </div>
