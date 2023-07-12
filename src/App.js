@@ -11,6 +11,8 @@ import Footer from './components/Footer'
 import NavMobile from './components/NavMobile';
 import Classes from './components/Classes'
 import About from './components/About'
+import Featured from './components/Featured';
+import Why from './components/Why';
 
 
 
@@ -34,6 +36,9 @@ const App = () => {
         <Hero/>
         <About/>
         <Classes/>
+        <Why/>
+
+        <Featured/>
 
         <div className = { `${navMobile ? 'right-0' : '-right-full'} fixed z-10 top-0 h-full transition-all duration-200` }>
         <NavMobile setNavMobile = { setNavMobile }/> 

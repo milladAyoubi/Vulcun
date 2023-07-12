@@ -6,20 +6,20 @@ import victorImg from '../assets/img/victor.png'
 const About =() => {
   return (
     <section className=' bg-pattern section'>
-    <div className='flex flex-col lg:flex-row items-center gap-8 justify-center'>
+    <div className='flex flex-col lg:flex-row items-center gap-8 justify-center  m-auto lg:w-[1200px]'>
        <div className=' lg:w-[600px] h-[500px] '>
 
-        <div className='relative bottom-[620px]'>
-    <div className='relative top-[600px] right-14'>
-       <img src={Circle1} width="580" height="134" loading="lazy" aria-hidden="true" alt="" class="circle circle-1"/>
-       <img src={Circle2} width="580" height="134" loading="lazy" aria-hidden="true" alt="" class="circle circle-2"/>
+        <div className='relative bottom-[620px] '>
+    <div className='relative top-[600px] right-14 items-center text-center'>
+       <img src={Circle1} width="580" height="134" loading="lazy" aria-hidden="true" alt="" className="circle circle-1"/>
+       <img src={Circle2} width="580" height="134" loading="lazy" aria-hidden="true" alt="" className="circle circle-2 m-auto"/>
     </div>
-       <img src={aboutImage} width="260" height="134" loading="lazy" aria-hidden="true" alt="" className='about-img relative bottom-[380px] right-[50px] w-[600px]'/>
+       <img src={aboutImage} width="260" height="134" loading="lazy" aria-hidden="true" alt="" className='about-img lg:relative m-auto bottom-[380px] right-[50px] w-[300px] lg:w-[600px]'/>
        </div>
        </div>
 
 
-       <div className='lg:w-[500px] flex flex-col gap-4 text-black/90'>
+       <div className='lg:w-[600px] flex flex-col gap-4 text-black/90 items-center lg:items-start'>
         <p className='bg-yellow-600/20 text-yellow-600 py-2 px-5 w-[116px] rounded-full font-semibold'>About Us</p>
        <h2 className="lg:text-[32px] font-extrabold lg:w-[400px] ">START YOUR FITNESS JOURNEY WITH US</h2>
                
