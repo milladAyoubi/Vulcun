@@ -43,6 +43,7 @@ module.exports = {
                 fitness: "url('/src/assets/img/bg-fitness-class.jpg')",
                 ride: "url('/src/assets/img/bg-ride-class.jpg')",
                 boxing: "url('/src/assets/img/boxing-class.jpg')",
+                contact: "url('/src/assets/img/contact-image.jpg')",
                 newsletterBox: "url('/src/assets/img/newsletter-box.png')",
             },
         },

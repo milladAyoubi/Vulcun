@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import {IoFitnessOutline, IoFitnessSharp} from 'react-icons/io5'
 import {TbYoga} from 'react-icons/tb'
 import {IoIosBicycle} from 'react-icons/io'
@@ -19,7 +20,7 @@ const Classes = () => {
                      <p>With a variety of workouts to choose from, 
                         you'll have everything you need to get into the 
                         best shape of your life.</p>
-                        <button className='btn h-[52px]  text-base px-8 font-semibold m-auto text-white'>Book Classes</button>
+                       <Link to="/contact"> <button className='btn h-[52px]  text-base px-8 font-semibold m-auto text-white'>Book Classes</button></Link>
                 </div>
                 </div>
             </div>
