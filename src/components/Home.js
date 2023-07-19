@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Box } from '@mui/material';
 
 
 import Header from './Header';
@@ -9,8 +10,12 @@ import Classes from './Classes'
 import About from './About'
 import Featured from './Featured';
 import Why from './Why';
+import SearchExercises from './SearchExercises';
 
 const Home = () => {
+
+  const [exercises, setExercises] = useState([]);
+  const [bodyPart, setBodyPart] = useState('all');
     const [navMobile, setNavMobile] = useState(false);
   return (
      
@@ -23,6 +28,7 @@ const Home = () => {
     <Classes/>
     <Why/>
     <Featured/>
+    <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
 
     <div className = { `${navMobile ? 'right-0' : '-right-full'} fixed z-10 top-0 h-full transition-all duration-200` }>
     <NavMobile setNavMobile = { setNavMobile }/> 
