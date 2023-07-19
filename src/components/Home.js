@@ -11,11 +11,12 @@ import About from './About'
 import Featured from './Featured';
 import Why from './Why';
 import SearchExercises from './SearchExercises';
+import Exercises from './Excercises';
 
 const Home = () => {
 
   const [exercises, setExercises] = useState([]);
-  const [bodyPart, setBodyPart] = useState('all');
+  const [bodyPart, setBodyPart] = useState('back');
     const [navMobile, setNavMobile] = useState(false);
   return (
      
@@ -29,6 +30,7 @@ const Home = () => {
     <Why/>
     <Featured/>
     <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
+    <Exercises setExercises={setExercises} exercises={exercises} bodyPart={bodyPart} />
 
     <div className = { `${navMobile ? 'right-0' : '-right-full'} fixed z-10 top-0 h-full transition-all duration-200` }>
     <NavMobile setNavMobile = { setNavMobile }/> 
