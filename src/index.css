@@ -192,11 +192,11 @@
 }
 
 .exercise-card {
-  width: 400px;
+  color: #fff;
+  width: 350px;
   height: 445px;
-  background: #fff;
-  border-top: 4px solid #ff2625;
-  border-bottom-left-radius: 20px;
+  background-color: #131338;
+  border-radius: 20px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -207,7 +207,8 @@
 }
 
 .exercise-card img {
-  height: 326px;
+  border-radius: 20px;
+  height: 300px;
 }
 
 .bodyPart-card {
@@ -255,6 +256,7 @@
   }
 
   .exercise-card {
+    background: #131338;
     width: 320px;
   }
 
