@@ -1,5 +1,7 @@
 import React from 'react';
 import Footer from './Footer';
+import {FaFacebookF, FaTiktok, FaInstagram} from 'react-icons/fa'
+
 
 const Contact = () => {
   return (
@@ -11,20 +13,67 @@ const Contact = () => {
       <div className='flex flex-row '>
 
 
-      <div className="lg:w-1/2 bg-white flex items-center justify-center">
-        <div className="max-w-md py-8 px-4 sm:px-6 lg:px-8">
+      <div className="lg:w-1/2 bg-white flex flex-col items-center justify-center">
+
+        <div className="max-w-2xl py-8 px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-semibold text-gray-800">Contact Information</h2>
           <div className="mt-8">
-            <p className="text-lg text-gray-700">123 Main Street</p>
-            <p className="text-lg text-gray-700">City, State 12345</p>
-            <p className="text-lg text-gray-700">Phone: (123) 456-7890</p>
-            <p className="text-lg text-gray-700">Email: info@example.com</p>
+            <p className="text-lg text-gray-700">At Gymate, we are dedicated to helping you 
+            achieve the body of your dreams. Our expert trainers and nutritionists will work with 
+            you to create a personalized fitness and nutrition plan that helps you reach your specific goals.</p>
+          
+          </div>
+
+        </div>
+
+        <div className="max-w-2xl py-8 px-4 sm:px-6 lg:px-8 flex items-start gap-16 items-start w-[100%]">
+        <div>
+         <h3 className="text-2xl font-semibold text-gray-800">New York City, USA</h3>
+         <div>
+          <p className="text-lg text-gray-700">85 Briston Mint Street,</p>
+          <p className="text-lg text-gray-700">London, E1 8LG, USA</p>
           </div>
         </div>
-      </div>
+
+        <div>
+         <h3 className="text-2xl font-semibold text-gray-800">Opening Hours</h3>
+         <div>
+          <p className="text-lg text-gray-700">Mon to Fri: 7:30 am — 1:00 am</p>
+          <p className="text-lg text-gray-700">Mon to Fri: 7:30 am — 1:00 am</p>
+          </div>
+        </div>
+
+        
+        </div>
+
+
+        <div className="max-w-2xl py-8 px-4 sm:px-6 lg:px-8 flex items-start gap-16 items-start w-[100%]">
+        <div>
+         <h3 className="text-2xl font-semibold text-gray-800">Information</h3>
+         <div>
+          <p className="text-lg text-gray-700">+800-123-4567</p>
+          <p className="text-lg text-gray-700">gymat@gymail.com</p>
+          </div>
+        </div>
+
+        <div>
+         <h3 className="text-2xl font-semibold text-gray-800">Follow Us</h3>
+         <div className='text-[18px] font-medium text-black flex gap-5 mt-2'>
+          <FaFacebookF className="text-xl lg:text-xl bg-black/10 w-[35px] h-[35px] hover:bg-yellow-600/60 hover:text-white transition p-2 rounded-sm text-black opacity-90  m-auto"/>
+          <FaTiktok className="text-xl lg:text-xl bg-black/10 w-[35px] h-[35px] hover:bg-yellow-600/60 hover:text-white transition p-2 rounded-sm text-black opacity-90  m-auto"/>
+          <FaInstagram className="text-xl lg:text-xl bg-black/10 w-[35px] h-[35px] hover:bg-yellow-600/60 hover:text-white transition p-2 rounded-sm text-black opacity-90  m-auto"/>
+
+
+          </div>
+        </div>
+
+        
+        </div>
+        </div>
+    
 
       <div className="lg:w-1/2 bg-white gray-100 flex items-center justify-center">
-        <div className="max-w-md py-8 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-md w-[100%] py-8 px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-semibold text-gray-800">Contact Us</h2>
           <div className="mt-8">
             <form className="space-y-6">
