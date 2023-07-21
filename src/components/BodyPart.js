@@ -8,7 +8,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     alignItems="center"
     justifyContent="center"
     className="bodyPart-card"
-    sx={bodyPart === item ? {  border: '2px solid #FFFFFF', background: '#131338', borderRadius: '20px', width: '200px', height: '62px', cursor: 'pointer', gap: '47px' } : { background: '#131338', borderRadius: '20px', width: '200px', height: '62px', cursor: 'pointer', gap: '47px' }}
+    sx={bodyPart === item ? {  border: '2px solid #FFFFFF', background: '#131338', borderRadius: '12px', width: '160px', height: '52px', cursor: 'pointer', gap: '47px' } : { background: '#131338', borderRadius: '12px', width: '160px', height: '52px', cursor: 'pointer', gap: '47px' }}
     onClick={() => {
       setBodyPart(item);
     }}

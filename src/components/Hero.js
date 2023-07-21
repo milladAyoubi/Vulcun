@@ -26,7 +26,7 @@ const Hero = () => {
 
 <div className='flex flex-col  lg:flex-row gap-2 '>
         <button className=' h-[52px] text-[12px] font-semibold flex flex-col  items-center cursor-pointer '>
-          <span className='bg-yellow-600/80 transition hover:bg-white  items-center flex justify-center p-5 rounded-full relative bottom-4 play-button'>
+          <span className='bg-yellow-600/80 transition   items-center flex justify-center p-5 rounded-full relative bottom-4 play-button'>
           <FaPlay className="text-xl lg:text-xl text-white opacity-90  m-auto "/>
           </span>
           <span className='cursor-pointer relative bottom-5'>VIEW FREE TRIAL</span></button>

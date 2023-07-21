@@ -8,7 +8,7 @@ import fitnessCircle from '../assets/img/fitness-circle.svg'
 const Why = () => {
   return (
     <section className=' bg-pattern section'>
-    <div className='flex flex-col lg:flex-row items-center gap-8 justify-center m-auto lg:w-[1200px] overflow-none h-[500px]'>
+    <div className='flex flex-col lg:flex-row items-center gap-8 justify-between m-auto lg:w-[1200px] overflow-none h-[500px]'>
       
 
 
@@ -41,7 +41,7 @@ const Why = () => {
 <div className=' '>
 <img src={fitnessCircle} width="340" height="134" loading="lazy" aria-hidden="true" alt="" className='circle circle-1 relative top-[170px] left-[90px]'/>
 
-<img src={whyImage} width="540" height="134" loading="lazy" aria-hidden="true" alt="" className='relative bottom-[140px] overflow-none'/>
+<img src={whyImage} width="540" height="134" loading="lazy" aria-hidden="true" alt="" className='relative lg:right-[40px] bottom-[140px] overflow-none'/>
 </div>
 </div>
     </div>
