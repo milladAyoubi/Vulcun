@@ -9,10 +9,10 @@ const About =() => {
     <div className='flex flex-col lg:flex-row items-center gap-8 justify-center  m-auto lg:w-[1200px]'>
        <div className=' lg:w-[600px] h-[500px] '>
 
-        <div className='relative bottom-[620px] '>
-    <div className='relative top-[600px] right-14 items-center text-center'>
-       <img src={Circle1} width="580" height="134" loading="lazy" aria-hidden="true" alt="" className="circle circle-1"/>
-       <img src={Circle2} width="580" height="134" loading="lazy" aria-hidden="true" alt="" className="circle circle-2 m-auto"/>
+        <div className='lg:relative bottom-[620px] '>
+    <div className='flex flex-col lg:relative lg:top-[600px] lg:right-14 items-center text-center'>
+       <img src={Circle1}  loading="lazy" aria-hidden="true" alt="" className="circle circle-1"/>
+       <img src={Circle2} loading="lazy" aria-hidden="true" alt="" className="circle circle-2 m-auto "/>
     </div>
        <img src={aboutImage} width="260" height="134" loading="lazy" aria-hidden="true" alt="" className='about-img lg:relative m-auto bottom-[380px] right-[50px] w-[300px] lg:w-[600px]'/>
        </div>

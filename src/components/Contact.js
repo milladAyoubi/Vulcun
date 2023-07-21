@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Footer from './Footer';
 import {FaFacebookF, FaTiktok, FaInstagram} from 'react-icons/fa'
+import Header from './Header';
 
 
 const Contact = () => {
+
+  const [navMobile, setNavMobile] = useState(false);
+
   return (
+
+    <div className = "overflow-hidden" >
+    <Header setNavMobile = { setNavMobile } className = "lg:fixed"/>
     <div>
       <div className="bg-contact lg:w-[100%] lg:h-[600px]">
      
@@ -136,6 +143,7 @@ const Contact = () => {
       
       </div>
       <Footer/>
+    </div>
     </div>
    
   );

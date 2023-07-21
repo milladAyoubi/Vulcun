@@ -91,6 +91,17 @@
     animation-direction: reverse;
   }
 
+  @media only screen and (max-width: 768px) {
+    .circle-1 {
+      position: absolute;
+      top: 1100px;
+    }
+    .circle-2 {
+      position: absolute;
+      top: 1300px;
+    }
+  }
+
   .about-img {
     animation: move 3s linear infinite alternate;
   }
